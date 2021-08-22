@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Home {
+    background-color: rgb(51, 48, 48);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 20vh;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    color: rgb(238, 237, 228);
+}
+
+.enlacesHeader{
+    font-family: Georgia;
+    margin-left: auto;
+}
+
+h1 {
+    font-weight:normal;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    color: black;
+    font-family: Arial;
+}
+
+.fotoContacto {
+    width: 1350px;
+    height: 700px;
+}
+
+.formulario1 {
+    position: relative;
+    margin-left: 25%;
+    padding: 14px;
+    border: solid 1px black;
+    width: 640px;
+    height: 489px;
+    
+}
+
+.formulario2 {
+    position: relative;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding-top: 35px;
+    padding-left: 15px;
+    border: solid 1px black;
+    width: 640px;
+    height: 200px;
+    
+}
+
+.formulario3 {
+    position: relative;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding-top: 35px;
+    padding-left: 15px;
+    border: solid 1px black;
+    width: 640px;
+    height: 470px;
+    
+}
+
+
+h5 {
+    color: black;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 10pt;
+    margin-bottom: -0.8rem;
+    
+}
+
+h4 {
+    color: black;
+    font-family: Arial;
+    font-size: 11pt;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contactado {
+    color: black;
+    font-family: Arial;
+    font-size: 11pt;
+    font-weight: normal;
+    margin-top: 10px;
+    
+}
+
+.eleccion {
+    color: black;
+    font-family: Arial;
+    font-size: 11pt;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: -0.8rem;
+}
+
+.propiedad {
+    position: relative;
+    margin-left: 26%;
+    margin-bottom: -3.1rem;
+    margin-top: 18px;
+    color: black;
+    background-color: white;
+}
+
+.contacto {
+    position: relative;
+    margin-left: 26%;
+    margin-bottom: -3.1rem;
+    margin-top: 18px;
+    color: black;
+    background-color: white;
+}
+
+h3 {
+    position: relative;
+    margin-left: 26%;
+    margin-bottom: -0.6rem;
+    color: black;
+    background-color: white;
+}
+
+
+input{
+    margin-bottom: 25px;
+    margin-top: 1px;
+    width: 610px;
+    height: 30px;
+    background-color: rgb(221, 219, 219);
+    color: rgb(87, 87, 87);
+    border-style: none;
+}
+
+#radio {
+    width: 15px;
+    margin-top: 15px;
+}
+
+.enviar {
+    background-color: #71b11f;
+    width: 100px;
+    height: 40px;
+    color: rgb(238, 237, 228);
+    font-weight: bold;
+    border: 0px;
+    margin-left: 2px;
+    margin-top: 25px;
+}
+
+#mensaje {
+    height: 200px;
+}
+
+
+footer {
+    width: 100%;
+    height: 14vh;
+    background-color: #323232;
+    color:#ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-top: 200px;
+    }
+    
+    .contenedorFooter {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .navFooter ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+    }
+    
+    .contenedorFooter p {
+    margin-top: 15px;
+    margin-left: 200px;
+    }

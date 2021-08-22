@@ -1,0 +1,458 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Home {
+    background-image: url(imagenes/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 20vh;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+nav ul li a {
+    color: rgb(238, 237, 228);
+}
+.enlacesHeader{
+    font-family: Georgia;
+    margin-left: auto;
+}
+.textoHeader {
+    margin-top: 370px;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+    color: rgb(238, 237, 228);
+    text-decoration: none;  
+}
+
+.textoHeader h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.textoHeader h2{
+    font-size: 23px;
+}
+.Nosotros{
+    width: 75%;
+    margin: 40px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Nosotros h2 {
+    font-size: 25pt;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.cajaNosotros{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.caja {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.caja h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: black;
+}
+.caja p {
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+.caja img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.h{
+    margin-top: 370px;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+    color: rgb(238, 237, 228);
+}
+.h h2{
+    color: white;
+}
+.h h3{
+    color: white;
+    font-size: 18pt;
+}
+main {
+    width: 80%;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+main h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.anunciosVenta, .anunciosVentaAbajo {
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.anuncioIzquierda {
+    width: 300px;
+    height: 490px;
+    margin: 10px auto;
+    background-color:#f5f5f5;
+    border: solid #bbbbbb 1px;
+     
+}
+
+.Anuncio1 {
+    width: 298px;
+    height: 200px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.anuncio1 h3 {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.contenidoAnuncio1 {
+    padding: 15px;
+    line-height: 2;
+    
+}
+.contenidoAnuncio1 h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.textoAnuncio1 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+.anuncioCentro {
+    width: 300px;
+    height: 490px;
+    margin: 10px auto;
+    background-color:#f5f5f5;
+    border: solid #bbbbbb 1px; 
+}
+
+.Anuncio2 {
+    width: 298px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.anuncio2 h3 {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.contenidoAnuncio2 {
+    padding: 15px;
+    line-height: 2;
+}
+.contenidoAnuncio2 h3 {
+    color: black;
+    font-size: 24px;
+}
+
+.textoAnuncio2 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+.anuncioDerecha {
+    width: 300px;
+    height: 490px;
+    margin: 10px auto;
+    background-color:#f5f5f5;
+    border: solid #bbbbbb 1px;
+}
+
+.Anuncio3 {
+    width: 298px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.anuncio3 h3 {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.contenidoAnuncio3 {
+    padding: 15px;
+    line-height: 2;
+}
+.contenidoAnuncio3 h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.textoAnuncio3 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+.valor {
+    color: #71b11f;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.comodidades {
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.icono img{
+    width: 30px;
+}
+.verPropiedad {
+    background-color:#df8716;
+    width: 260px;
+    height: 40px;
+    color:#ffffff;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 10px;
+}
+
+.verTodas {
+    background-color: #71b11f;
+    width: 150px;
+    height: 40px;
+    color: rgb(238, 237, 228);
+    font-weight: bold;
+    border: 0px;
+    margin-left: 900px;
+}
+.sueños {
+    background-image: url(imagenes/encuentra.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.sueños h2 {
+    margin-bottom: 50px;
+}
+
+.sueños p {
+    margin-bottom: 50px;
+}
+
+.CajaSueños {
+    width: 80%;
+    padding: 70px 150px;
+    color: #ffffff;
+}
+.CajaSueños h2 {
+    font-family: 'Verdana';
+}
+.CajaSueños p {
+    font-family: 'Verdana';
+}
+.contactanos {
+    background-color:#df8716;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+}
+
+.info {
+    width: 80%;
+    margin: 30px 150px 30px 150px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.blog {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog h3 {
+    font-family: 'Arial Narrow Bold';
+    color: black;
+}
+
+.contenedorBlog h2 {
+    font-family: Verdana;
+    font-size: 19pt;
+    color: black;
+}
+
+.blog img {
+    width: 250px;
+    height: auto;
+}
+
+.Blog1 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 20pt;
+
+}
+
+.texto {
+    width: 400px;
+    height: auto;
+    margin: 10px 0px 0px 25px;
+}
+
+.texto p {
+    font-size: 12pt;
+    margin-top: 15px;
+}
+
+.texto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 150px;
+    height: 5px;
+    background-color: #71b11f;
+}
+
+.colorBlog {
+    color: #df8716;
+    font-weight: bold;
+}
+
+.Blog2 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 20pt;
+}
+
+.testimoniales h2 {
+    font-family: Verdana;
+    font-size: 19pt;
+    color: black;
+    margin-bottom: 33px;
+}
+
+.CajaTestimonio {
+    background-color: #71b11f;
+    width: 380px;
+    height: 300px;
+    padding: 50px 40px;
+    border-radius: 20px;
+}
+.CajaTestimonio img {
+    width: 30px;
+    float: left;
+}
+
+.textoTestimonio {
+    text-align: left;
+
+}
+
+.contenidoTestimonio {
+    width: 250px;
+    color: rgb(238, 237, 228);
+    font-size: 20px;
+    line-height: 30px;
+    float: right;
+}
+
+.contenidoTestimonio p {
+    margin-top: 40px;
+    margin-right: 5px;
+    font-weight: bold;
+    float: right;
+}
+
+footer {
+width: 100%;
+height: 14vh;
+background-color: #323232;
+color:#ffffff;
+font-weight: bold;
+padding-top: 20px;
+}
+
+.contenedorFooter {
+width: 80%;
+display: flex;
+justify-content: space-between;
+}
+
+
+.navFooter ul li {
+display: inline-block;
+list-style-type: none;
+text-decoration: none;
+margin-left: 15px;
+}
+
+.contenedorFooter p {
+margin-top: 15px;
+margin-left: 200px;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Home {
+    background-color: rgb(51, 48, 48);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 20vh;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;    
+}
+
+nav ul li a {
+    color: rgb(238, 237, 228);
+}
+
+.enlacesHeader{
+    font-family: Georgia;
+    margin-left: auto;
+}
+
+h1 {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    color: black;
+    font-family: Arial;
+}
+
+
+.textoNosotros {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 500px;
+    width: 300px;
+    height: 250px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Segoe UI';
+    
+}
+
+.fotoNosotros {
+    width: 1350px;
+    height: 700px;
+}
+
+footer {
+    width: 100%;
+    height: 14vh;
+    background-color: #323232;
+    color:#ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-top: 200px;
+    }
+    
+    .contenedorFooter {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .navFooter ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+    }
+    
+    .contenedorFooter p {
+    margin-top: 15px;
+    margin-left: 200px;
+    }
